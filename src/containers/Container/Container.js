@@ -1,15 +1,13 @@
-import "./Container.css";
+import "./Container.css"
+import React from 'react'
 import Header from "../Header"
 import Footer from "../Footer"
-import React from 'react'
 
 const Container = (props) => {
     return (
         <>
             <Header />
-            <div className="content">
-                {props.children}
-            </div>
+            <div className="content">{props.children}</div>
             <Footer />
         </>
     )

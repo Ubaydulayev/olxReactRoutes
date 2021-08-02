@@ -1,9 +1,9 @@
-import detskiyMir from "./detskiy-mir"
-import transport from "./transport"
+import detskiyMir from "./detskiy-mir";
+import transport from "./transport";
 
-const data = [
-    { category: "detskiy-mir", data: detskiyMir },
-    { category: "transport", data: transport },
-]
+const data = {
+    "detskiy-mir": detskiyMir,
+    "transport": transport,
+}
 
 export default data;

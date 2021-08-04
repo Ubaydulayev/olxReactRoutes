@@ -11,3 +11,77 @@ header.light {
   background-color: white !important;
   color: rgb(53, 53, 53) !important;
 }
+
+.olx-website-rebranded {
+  width: 71px;
+  height: 41px;
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  z-index: 10;
+  text-indent: -1000em;
+}
+
+a {
+  outline: none;
+  color: #002f34;
+  text-decoration: none;
+}
+
+.olx-website-rebranded__o {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(12px, 15px);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 0 0 12px #24e5db;
+}
+
+.olx-website-rebranded__l {
+  width: 10px;
+  top: 0;
+  bottom: 0;
+  background: #23e5db;
+  position: absolute;
+  left: 37px;
+}
+
+.olx-website-rebranded__x {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(51px, 10px);
+}
+
+.olx-website-rebranded__o {
+  animation: olx-website-rebranded-o .4s ease .2s both;
+}
+
+.olx-website-rebranded__l {
+  animation: olx-website-rebranded-l .4s ease .3s both;
+}
+
+.olx-website-rebranded__x {
+  animation: olx-website-rebranded-x .4s ease .2s both;
+}
+
+.olx-website-rebranded__x:before {
+  animation: olx-website-rebranded-x-before .4s ease .3s both;
+}
+.olx-website-rebranded__x:before {
+  transform: skewX(45deg) translate(-50%, 0);
+}
+
+.olx-website-rebranded__x:after {
+  animation: olx-website-rebranded-x-after .4s ease .3s both;
+}
+.olx-website-rebranded__x:after {
+  transform: skewX(-45deg) translate(-50%, 0);
+}

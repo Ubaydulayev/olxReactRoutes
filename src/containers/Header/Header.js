@@ -17,6 +17,11 @@ const Header = () => {
         <header className={`shadow ${theme}`}>
             <div className="container py-3 d-flex align-items-center justify-content-between">
                 <img src="logo192.png" className="logo me-3" alt="" />
+                <a href="#" id="headerLogo" class="olx-website-rebranded">
+					<span class="olx-website-rebranded__o"></span>
+					<span class="olx-website-rebranded__l"></span>
+					<span class="olx-website-rebranded__x"></span>		
+                </a>
                 <Button color={theme} onClick={toggle}><FontAwesomeIcon icon={theme == "light" ? faMoon : faSun} /></Button>
             </div>
         </header >

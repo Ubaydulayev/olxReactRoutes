@@ -61,6 +61,13 @@ const data = [
             owner: "Benom",
             description: "123"
         }
+    },
+    {
+        img: "https://apollo-olx.cdnvideo.ru:443/v1/files/lmbbx0y45qse2-UZ/image;s=644x461",
+        title: "Одежда для девочек. Турция",
+        price: "11 y.e.",
+        location: "Ташкент, Юнусабадский район",
+        id: 4,
     }
 ]
 

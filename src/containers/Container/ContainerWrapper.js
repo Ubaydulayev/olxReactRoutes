@@ -10,7 +10,7 @@ const ContainerWrapper = styled.div`
     }
 
     .content {
-        min-height: 400px;
+        min-height: 523px;
     }
 `;
 

@@ -1,6 +1,5 @@
-import "./Mobileapps.css"
-import React from 'react'
-import Container from "../../containers/Container"
+import React from 'react';
+import Container from "../../containers/Container";
 
 const Mobileapps = () => {
     return (

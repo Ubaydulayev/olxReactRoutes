@@ -8,6 +8,51 @@ const HeaderWrapper = styled.header`
    .logo {
         height: 40px;
     }
+
+    .btn {
+        color:  ${props => props.colors.color};
+    }
+
+    .language_uz {
+        color: ${props => props.colors.language_uz};
+        font-weight: bold;
+    }
+
+    .language_ru {
+        font-weight: bold;
+        color: ${props => props.colors.language_ru};
+    }
+
+    .headButton, .headButton2 {
+        background: none;
+        border: none;
+    }
+
+    .headButton2 {
+        background-color: white;
+        color: black;
+    }
+
+
+    @media screen and (max-width: 992px) {
+        .nav__menu {
+            position: fixed;
+            top: 70px;
+            left: -150%;
+            width: 250px;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            justify-content: center;
+            background-color: ${props => props.colors.backgroundColor};
+            transition: .5s;
+            color: white !important;
+        }
+        .left{
+            left: 0;
+            transition: .5s;
+        }
+    }
 `
 
 export default HeaderWrapper

@@ -96,7 +96,6 @@ const Home = () => {
     return (
         <HomeWrapper>
             <Container>
-                <Search />
                 <div className="home">
                     <div className="container py-5">
                         <h1 className="text-center pb-5">Главные категории</h1>

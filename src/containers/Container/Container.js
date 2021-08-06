@@ -11,6 +11,7 @@ const Container = (props) => {
     return (
         <ContainerWrapper colors={colors}>
             <Header />
+            <Search />
             <div className="content">{props.children}</div>
             <Footer />
         </ContainerWrapper>

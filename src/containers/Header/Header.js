@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faMoon, faSun, faUser } from "@fortawesome/free-regular-svg-icons";
 import HeaderWrapper from './HeaderWrapper';
 import { faBars, faHeartbeat, faHeartBroken, faUserAlt } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 
@@ -22,7 +23,7 @@ const Header = () => {
         <HeaderWrapper className={`shadow`} colors={colors}>
             <div className="container py-4 d-flex align-items-center justify-content-between">
                 <div className="d-flex align-items-center">
-                    <img src="logo192.png" className="logo me-3" alt="" />
+                    <Link to="/" ><img src="logo192.png" className="logo me-3" alt="" /></Link>
                     <p className="m-0 ms-2 fw-bold">Olx.uz</p>
                 </div>
                 <div className={`d-flex align-items-center nav__menu ${bars && "left"}`}>

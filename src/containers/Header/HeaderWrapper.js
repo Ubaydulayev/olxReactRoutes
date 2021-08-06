@@ -29,8 +29,8 @@ const HeaderWrapper = styled.header`
     }
 
     .headButton2 {
-        background-color: white;
-        color: black;
+        background-color: ${props => props.colors.headButton2};
+        color: ${props => props.colors.headTitle};
     }
 
 

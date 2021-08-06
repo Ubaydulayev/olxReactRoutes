@@ -7,6 +7,10 @@ const colors = {
         backgroundColor: "#031b1f",
         color: "white",
         body: "#0d414a",
+        inputGr: "#0a6473",
+        headButton2: "white",
+        headTitle: "black",
+        inputBg: "#031b1f",
         footerBack: "#031b1f"
 
     },
@@ -17,6 +21,10 @@ const colors = {
         backgroundColor: "white",
         color: "#031b1f",
         body: "#e6e6e6",
+        inputGr: "#0a6473",
+        inputBg: "white",
+        headTitle: "white",
+        headButton2: "black",
         footerBack: "white",
     }
 }

@@ -89,6 +89,12 @@ const data = [
         img: "https://categories.olxcdn.com/assets/categories/olxuz/obmen-barter-1153-2x.png",
         to: "home",
         color: "#ffd6c9"
+    },
+    {
+        title: "Работа в Казахстане",
+        img: "https://categories.olxcdn.com/assets/promo/olxuz/kzjob-1x.png",
+        to: "kazah",
+        color: "#fff6d9"
     }
 ]
 
@@ -99,7 +105,7 @@ const Home = () => {
                 <div className="home">
                     <div className="container py-5">
                         <h1 className="text-center pb-5">Главные категории</h1>
-                        <div className='d-flex flex-wrap' >
+                        <div className='d-flex flex-wrap justify-content-center align-items-center' >
                             {data.map(v =>
                             <Link to={v.to} className="category me-4">
                             <div className="circle mx-auto" style={{ backgroundColor: v.color }}>

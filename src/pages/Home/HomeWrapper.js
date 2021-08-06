@@ -9,6 +9,11 @@ const HomeWrapper = styled.div`
         justify-content: center;
         align-items: center;
     }
+    .category{
+        width: 130px;
+        height: 100%;
+        text-align: center;
+    }
 `
 
 export default HomeWrapper;

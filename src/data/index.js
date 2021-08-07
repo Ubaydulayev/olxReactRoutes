@@ -4,6 +4,7 @@ import nedvizhimost from "./nedvizhimost";
 import work from "./work";
 import animals from "./animals";
 import home from "./homeWork";
+import premiumAds from "./premiumAds";
 
 const data = {
     "detskiy-mir": detskiyMir,
@@ -13,6 +14,8 @@ const data = {
     "animals": animals,
     "home": home,
     "electronica": [],
+    "premiumAds": premiumAds,
+
 }
 
 export default data;

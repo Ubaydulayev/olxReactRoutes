@@ -55,6 +55,7 @@ const Footer = () => {
 
     return (
         <FooterWrapper colors={colors}>
+            <hr className="p-0 m-0 hr" />
             <div className="container  py-5">
                 <div className="row">
                     <div className="col-md-4">

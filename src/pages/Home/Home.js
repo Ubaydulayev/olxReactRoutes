@@ -7,6 +7,8 @@ import Container from "../../containers/Container"
 import HeaderWrapper from '../../containers/Header/HeaderWrapper'
 import HomeWrapper from './HomeWrapper'
 import Search from '../Search'
+import datas from '../../data/premiumAds'
+import PremiumAds from '../PremiumAds/PremiumAds'
 
 // Работа
 // Животные
@@ -114,8 +116,9 @@ const Home = () => {
                                 <p>{v.title}</p>
                             </Link>)}
                         </div>
-                    </div> 
+                    </div>
                 </div>
+                <PremiumAds />
             </Container>
         </HomeWrapper>
         

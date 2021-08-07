@@ -8,12 +8,11 @@ const SearchWrapper = styled.div`
         border-radius: 10px;
         padding: 40px;
 
-        :placeholder-shown {
-
-        }
-
         .inputBg {
             background-color: ${props => props.colors.inputBg};
+            color: ${props => props.colors.color};
+        }
+        input::placeholder{
             color: ${props => props.colors.color};
         }
 

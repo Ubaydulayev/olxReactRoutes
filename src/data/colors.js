@@ -9,7 +9,7 @@ const colors = {
         body: "#0d414a",
         inputGr: "#0a6473",
         headButton2: "white",
-        headTitle: "black",
+        headTitle: "#031b1f",
         inputBg: "#031b1f",
         footerBack: "#031b1f"
 
